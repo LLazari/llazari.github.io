@@ -29,3 +29,63 @@ header
 		height: 86px;
 		
 	}
+	
+/*-- Nav --*/
+
+nav
+
+	{
+		
+		float: right;
+		padding: 25px 20px 0 0;
+		
+	}
+	
+ul
+
+	{
+		
+		list-style-type: none;
+		
+	}
+	
+nav ul li
+
+	{
+		
+		font-family: Verdana;
+		font-size: 150%;
+		
+		display: inline-block;
+		
+		float: left;
+		
+		padding: 10px;
+		
+	}
+	
+nav ul li a
+
+	{
+		
+		text-decoration: none;
+		
+		color: #F4F4F4;
+		
+	}
+	
+nav ul li a:hover
+
+	{
+		
+		color: #9A6560;
+		
+	}
+
+.current
+
+	{
+		
+		color: #AA3530;
+		
+	}
