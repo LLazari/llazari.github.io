@@ -14,6 +14,9 @@ body
 		color: #343446;
 		
 		font-family: Verdana;
+		font-size: 16px;
+		
+		line-height: 1.5;
 		
 		margin: 0;
 		
@@ -28,7 +31,25 @@ header
 		width: 100%;
 		height: 64px;
 		
+		padding-bottom: 30px;
+		
+		border-bottom: 1px solid #AA3530;
+		
 	}
+
+a
+
+	{
+		
+		font-family: Verdana;
+		font-size: 100%;
+		font-weight: 50;
+		
+		text-decoration: none;
+		
+		color: #AA3530;
+		
+	}	
 	
 a.site-title
 
@@ -103,22 +124,19 @@ nav ul li a:hover
 		color: #AA3530;
 		
 	}
-
-div.vl
-
-	{
-		
-		border: 0;
-		border-top: 1px solid #AA3530;
-		margin: 1em 0;
-		height: 1px;
-		
-	}
 	
 div.wrapper
 
 	{
 		
-		padding: 20px 20px 0px 20px;
+		padding: 30px 30px 30px 30px;
+		
+	}
+	
+.content
+
+	{
+		
+		padding: 50px 50px 50px 50px;
 		
 	}
